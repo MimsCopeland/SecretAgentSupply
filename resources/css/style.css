@@ -18,8 +18,11 @@ body {
   margin: 0 auto;
 }
 
-.title {
+.black {
   background-color: black;
+}
+
+.title {
   color: white;
   display: flex;
   padding: .66rem 0;
@@ -31,7 +34,6 @@ body {
 }
 
 .moto {
-  width: 960px;
   background-image: url(../images/moto.jpeg);
   height: 25rem;
   background-size: cover;
@@ -53,10 +55,12 @@ body {
 
 nav {
   background-color: firebrick;
+  padding: .75rem 0;
 }
 
 nav ul {
   display: flex;
+  justify-content: space-between;
 }
 
 nav a {
@@ -66,5 +70,4 @@ nav a {
 }
 
 footer {
-  background-color: black;
 }
