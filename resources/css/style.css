@@ -2,6 +2,21 @@ html {
   font-size: 18px;
   font-family: helvetica, sans-serif;
 }
+/*
+body {
+  width: 960px;
+  display: flex;
+  margin: auto;
+}
+*/
+.full-width {
+  width: 100%;
+}
+
+.site-width {
+  width: 960px;
+  margin: 0 auto;
+}
 
 .title {
   background-color: black;
@@ -16,9 +31,10 @@ html {
 }
 
 .moto {
+  width: 960px;
   background-image: url(../images/moto.jpeg);
-  background-color: blue;
   height: 25rem;
+  background-size: cover;
 }
 
 .moto-text {
