@@ -95,5 +95,22 @@ nav a {
   text-align: center;
   padding: .5rem 0;
 }
+
+.location-line {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.location-line h3 {
+  color: white;
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.location-line .container {
+  width: 35%;
+}
 footer {
+  height: 5rem;
 }
