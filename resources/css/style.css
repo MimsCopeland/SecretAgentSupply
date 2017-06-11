@@ -156,3 +156,46 @@ footer h5 {
     justify-content: flex-end;
   }
 }
+
+@media only screen and (max-width: 470px) {
+  .title h2 {
+    display: none;
+  }
+  .title {
+    justify-content: center;
+  }
+  .moto {
+    height: 15rem;
+  }
+ .moto-text {
+    padding: 1rem 2rem;
+    width: 100%;
+    margin-top: 11.4rem;
+  }
+  .moto-text h2 {
+    font-size: .77rem;
+  }
+  .moto-text h1 {
+    font-size: 1rem;
+  }
+  .gallery {
+    width: 90%;
+    margin: 3rem auto;
+  }
+  .gallery .container:nth-child(2) {
+    display: none;
+  }
+  .gallery .container {
+    width: 100%;
+  }
+  .location-line {
+    display: block;
+  }
+  .location-line .container {
+    width: 90%;
+    margin: .5rem auto;
+  }
+  footer h5{
+    justify-content: center;
+  }
+}
