@@ -75,9 +75,16 @@ nav a {
   margin: 3rem 0;
 }
 
+.image {
+  height: 9rem;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .gallery img {
-  max-height: 9rem;
-  width: auto;
+  max-width: 9rem;
   padding: 2rem;
 }
 
@@ -111,6 +118,14 @@ nav a {
 .location-line .container {
   width: 35%;
 }
+
 footer {
   height: 5rem;
+  display: flex;
+}
+
+footer h5 {
+  display: flex;
+  color: white;
+  align-items: center;
 }
